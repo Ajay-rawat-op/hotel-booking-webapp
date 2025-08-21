@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import Header from "../header/header";
 
 export default function SignUpPage() {
   const [formData, setFormData] = useState({
@@ -59,7 +58,6 @@ export default function SignUpPage() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-yellow-50 to-white">
-      <Header />
       <div className="flex flex-col md:flex-row w-full max-w-5xl bg-white rounded-2xl shadow-2xl overflow-hidden border border-yellow-100">
 
         {/* Left Side - Image Section */}

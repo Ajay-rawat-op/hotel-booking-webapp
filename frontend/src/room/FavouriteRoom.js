@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Header from '../header/header';
 import { useFavorites } from './FavoriteContext'; 
 
 const defaultRooms = [
@@ -27,7 +26,6 @@ const FavoriteRooms = () => {
 
   return (
     <>
-      <Header />
       <div className="px-10 py-16 bg-[#fefefe] min-h-screen">
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-10">Your Favorite Rooms</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">

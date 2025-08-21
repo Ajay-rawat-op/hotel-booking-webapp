@@ -1,6 +1,5 @@
 import { useState } from "react";
 import axios from "axios";
-import Header from "../header/header";
 
 const BookingForm = () => {
   const [checkIn, setCheckIn] = useState("");
@@ -33,7 +32,6 @@ const BookingForm = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4 py-12 relative overflow-hidden font-body">
-      <Header />
       <style>
         {`
           @keyframes pastelCycle {

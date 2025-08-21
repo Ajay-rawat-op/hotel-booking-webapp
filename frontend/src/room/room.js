@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import Header from '../header/header';
+import Header from '../components/header';
 import { useFavorites } from './FavoriteContext';
 import rooms from '../data/roomData';
 

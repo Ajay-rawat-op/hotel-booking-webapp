@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Header from "../header/header";
 import axios from "axios";
 
 const Contact = () => {
@@ -47,7 +46,6 @@ const Contact = () => {
 
   return (
     <div className="bg-[#F9FAFB] min-h-screen px-4 sm:px-6 lg:px-8 relative">
-      <Header />
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl sm:text-5xl font-bold text-[#1E40AF] mb-4">Get in Touch</h1>
         <p className="text-lg text-gray-600">

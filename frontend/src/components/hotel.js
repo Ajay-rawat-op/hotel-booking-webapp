@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Experience from './experience/experience';
-import RoomGallery from './room/room';
-import Footer from './footer/footer';
-import TestimonialSlider from './slider/images.js';
-import HotelFeatures from './hotel features/features.js';
-import Header from './header/header.js';
-import sliderContents from './data/sliderContents.js';
+import Experience from '../experience/experience.js';
+import RoomGallery from '../room/room.js';
+import Footer from '../components/footer.js';
+import TestimonialSlider from '../slider/images.js';
+import HotelFeatures from '../hotel features/features.js';
+import Header from '../components/header.js';
+import sliderContents from '../data/sliderContents.js';
 
 
 const Hotel = () => {
