@@ -39,6 +39,7 @@ const Header = () => {
       {/* Logo */}
       <h1 className="text-3xl sm:text-4xl font-bold font-dancing tracking-widest text-yellow-400">
         Rawat ji
+        
       </h1>
 
       {/* Desktop Nav */}

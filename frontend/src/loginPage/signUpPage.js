@@ -35,7 +35,6 @@ export default function SignUpPage() {
       });
 
       if (res.status === 200) {
-        alert("Account created successfully!");
 
         setFormData({
           fullName: "",
