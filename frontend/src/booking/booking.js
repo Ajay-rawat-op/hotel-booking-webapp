@@ -21,7 +21,7 @@ const BookingForm = () => {
         totalGuests,
       };
 
-      const response = await axios.post("http://localhost:3001/api/bookings", bookingData);
+      const response = await axios.post("https://hotel-booking-webapp-1-drzn.onrender.com/api/bookings", bookingData);
       alert("Booking successful!");
       console.log(response.data);
     } catch (error) {
