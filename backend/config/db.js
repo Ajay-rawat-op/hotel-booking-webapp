@@ -4,7 +4,7 @@ const connectDB = async () => {
   console.log('\n=== 🔍 DATABASE CONNECTION DEBUG ===');
   try {
     // Get MongoDB URL from environment variables
-    const mongoUrl = process.env.MONGO_URL || process.env.MONGODB_URI;
+    const mongoUrl = process.env.MONGO_URL || process.env.MONGODB_URL;
     console.log('Checking environment variables...');
     console.log('  - MONGO_URL exists:', !!process.env.MONGO_URL);
     console.log('  - MONGODB_URI exists:', !!process.env.MONGODB_URI);
