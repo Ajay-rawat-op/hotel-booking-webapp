@@ -28,7 +28,7 @@ export default function SignUpPage() {
     }
 
     try {
-      const res = await axios.post("http://localhost:3001/api/auth/signup", {
+      const res = await axios.post("https://hotel-booking-webapp-1-drzn.onrender.com/api/auth/signup", {
         name: formData.fullName,
         email: formData.email,
         password: formData.password,
