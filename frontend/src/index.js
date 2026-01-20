@@ -1,14 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import { FavoriteProvider } from './room/FavoriteContext';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import "./index.css";
+import App from "./App";
+import { FavoriteProvider } from "./room/FavoriteContext";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
-    <FavoriteProvider>
-      <App />
-    </FavoriteProvider>
+    <BrowserRouter>
+      <FavoriteProvider>
+        <App />
+      </FavoriteProvider>
+    </BrowserRouter>
   </React.StrictMode>
 );
