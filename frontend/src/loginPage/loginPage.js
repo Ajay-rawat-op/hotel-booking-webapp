@@ -28,7 +28,7 @@ export default function LoginPage() {
     }
 
     try {
-      const res = await axios.post("http://localhost:3001/api/auth/login", formData);
+      const res = await axios.post("https://hotel-booking-webapp-1-drzn.onrender.com/api/auth/login", formData);
 
       if (res.status === 200) {
         const { user, token } = res.data;
